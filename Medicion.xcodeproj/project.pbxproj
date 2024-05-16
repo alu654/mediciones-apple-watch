@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B471E5502BF6C2DC009F24D6 /* Medicion Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B471E54F2BF6C2DC009F24D6 /* Medicion Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B471E5552BF6C2DC009F24D6 /* MedicionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471E5542BF6C2DC009F24D6 /* MedicionApp.swift */; };
+		B471E5572BF6C2DC009F24D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471E5562BF6C2DC009F24D6 /* ContentView.swift */; };
+		B471E5592BF6C2DD009F24D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B471E5582BF6C2DD009F24D6 /* Assets.xcassets */; };
+		B471E55C2BF6C2DD009F24D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B471E55B2BF6C2DD009F24D6 /* Preview Assets.xcassets */; };
+		B471E5662BF6C2DE009F24D6 /* Medicion_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471E5652BF6C2DE009F24D6 /* Medicion_Watch_AppTests.swift */; };
+		B471E5702BF6C2DE009F24D6 /* Medicion_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471E56F2BF6C2DE009F24D6 /* Medicion_Watch_AppUITests.swift */; };
+		B471E5722BF6C2DE009F24D6 /* Medicion_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471E5712BF6C2DE009F24D6 /* Medicion_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B471E5512BF6C2DC009F24D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B471E5432BF6C2DC009F24D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B471E54E2BF6C2DC009F24D6;
+			remoteInfo = "Medicion Watch App";
+		};
+		B471E5622BF6C2DE009F24D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B471E5432BF6C2DC009F24D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B471E54E2BF6C2DC009F24D6;
+			remoteInfo = "Medicion Watch App";
+		};
+		B471E56C2BF6C2DE009F24D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B471E5432BF6C2DC009F24D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B471E54E2BF6C2DC009F24D6;
+			remoteInfo = "Medicion Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B471E5782BF6C2DE009F24D6 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B471E5502BF6C2DC009F24D6 /* Medicion Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B471E5492BF6C2DC009F24D6 /* Medicion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Medicion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B471E54F2BF6C2DC009F24D6 /* Medicion Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Medicion Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B471E5542BF6C2DC009F24D6 /* MedicionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicionApp.swift; sourceTree = "<group>"; };
+		B471E5562BF6C2DC009F24D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B471E5582BF6C2DD009F24D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B471E55B2BF6C2DD009F24D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B471E5612BF6C2DE009F24D6 /* Medicion Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Medicion Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B471E5652BF6C2DE009F24D6 /* Medicion_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medicion_Watch_AppTests.swift; sourceTree = "<group>"; };
+		B471E56B2BF6C2DE009F24D6 /* Medicion Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Medicion Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B471E56F2BF6C2DE009F24D6 /* Medicion_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medicion_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		B471E5712BF6C2DE009F24D6 /* Medicion_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medicion_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B471E54C2BF6C2DC009F24D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B471E55E2BF6C2DE009F24D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B471E5682BF6C2DE009F24D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B471E5422BF6C2DC009F24D6 = {
+			isa = PBXGroup;
+			children = (
+				B471E5532BF6C2DC009F24D6 /* Medicion Watch App */,
+				B471E5642BF6C2DE009F24D6 /* Medicion Watch AppTests */,
+				B471E56E2BF6C2DE009F24D6 /* Medicion Watch AppUITests */,
+				B471E54A2BF6C2DC009F24D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B471E54A2BF6C2DC009F24D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B471E5492BF6C2DC009F24D6 /* Medicion.app */,
+				B471E54F2BF6C2DC009F24D6 /* Medicion Watch App.app */,
+				B471E5612BF6C2DE009F24D6 /* Medicion Watch AppTests.xctest */,
+				B471E56B2BF6C2DE009F24D6 /* Medicion Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B471E5532BF6C2DC009F24D6 /* Medicion Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				B471E5542BF6C2DC009F24D6 /* MedicionApp.swift */,
+				B471E5562BF6C2DC009F24D6 /* ContentView.swift */,
+				B471E5582BF6C2DD009F24D6 /* Assets.xcassets */,
+				B471E55A2BF6C2DD009F24D6 /* Preview Content */,
+			);
+			path = "Medicion Watch App";
+			sourceTree = "<group>";
+		};
+		B471E55A2BF6C2DD009F24D6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B471E55B2BF6C2DD009F24D6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B471E5642BF6C2DE009F24D6 /* Medicion Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B471E5652BF6C2DE009F24D6 /* Medicion_Watch_AppTests.swift */,
+			);
+			path = "Medicion Watch AppTests";
+			sourceTree = "<group>";
+		};
+		B471E56E2BF6C2DE009F24D6 /* Medicion Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B471E56F2BF6C2DE009F24D6 /* Medicion_Watch_AppUITests.swift */,
+				B471E5712BF6C2DE009F24D6 /* Medicion_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Medicion Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B471E5482BF6C2DC009F24D6 /* Medicion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B471E5792BF6C2DE009F24D6 /* Build configuration list for PBXNativeTarget "Medicion" */;
+			buildPhases = (
+				B471E5472BF6C2DC009F24D6 /* Resources */,
+				B471E5782BF6C2DE009F24D6 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B471E5522BF6C2DC009F24D6 /* PBXTargetDependency */,
+			);
+			name = Medicion;
+			productName = Medicion;
+			productReference = B471E5492BF6C2DC009F24D6 /* Medicion.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		B471E54E2BF6C2DC009F24D6 /* Medicion Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B471E5752BF6C2DE009F24D6 /* Build configuration list for PBXNativeTarget "Medicion Watch App" */;
+			buildPhases = (
+				B471E54B2BF6C2DC009F24D6 /* Sources */,
+				B471E54C2BF6C2DC009F24D6 /* Frameworks */,
+				B471E54D2BF6C2DC009F24D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Medicion Watch App";
+			productName = "Medicion Watch App";
+			productReference = B471E54F2BF6C2DC009F24D6 /* Medicion Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B471E5602BF6C2DE009F24D6 /* Medicion Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B471E57C2BF6C2DE009F24D6 /* Build configuration list for PBXNativeTarget "Medicion Watch AppTests" */;
+			buildPhases = (
+				B471E55D2BF6C2DE009F24D6 /* Sources */,
+				B471E55E2BF6C2DE009F24D6 /* Frameworks */,
+				B471E55F2BF6C2DE009F24D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B471E5632BF6C2DE009F24D6 /* PBXTargetDependency */,
+			);
+			name = "Medicion Watch AppTests";
+			productName = "Medicion Watch AppTests";
+			productReference = B471E5612BF6C2DE009F24D6 /* Medicion Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B471E56A2BF6C2DE009F24D6 /* Medicion Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B471E57F2BF6C2DE009F24D6 /* Build configuration list for PBXNativeTarget "Medicion Watch AppUITests" */;
+			buildPhases = (
+				B471E5672BF6C2DE009F24D6 /* Sources */,
+				B471E5682BF6C2DE009F24D6 /* Frameworks */,
+				B471E5692BF6C2DE009F24D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B471E56D2BF6C2DE009F24D6 /* PBXTargetDependency */,
+			);
+			name = "Medicion Watch AppUITests";
+			productName = "Medicion Watch AppUITests";
+			productReference = B471E56B2BF6C2DE009F24D6 /* Medicion Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B471E5432BF6C2DC009F24D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B471E5482BF6C2DC009F24D6 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					B471E54E2BF6C2DC009F24D6 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					B471E5602BF6C2DE009F24D6 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B471E54E2BF6C2DC009F24D6;
+					};
+					B471E56A2BF6C2DE009F24D6 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B471E54E2BF6C2DC009F24D6;
+					};
+				};
+			};
+			buildConfigurationList = B471E5462BF6C2DC009F24D6 /* Build configuration list for PBXProject "Medicion" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B471E5422BF6C2DC009F24D6;
+			productRefGroup = B471E54A2BF6C2DC009F24D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B471E5482BF6C2DC009F24D6 /* Medicion */,
+				B471E54E2BF6C2DC009F24D6 /* Medicion Watch App */,
+				B471E5602BF6C2DE009F24D6 /* Medicion Watch AppTests */,
+				B471E56A2BF6C2DE009F24D6 /* Medicion Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B471E5472BF6C2DC009F24D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B471E54D2BF6C2DC009F24D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B471E55C2BF6C2DD009F24D6 /* Preview Assets.xcassets in Resources */,
+				B471E5592BF6C2DD009F24D6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B471E55F2BF6C2DE009F24D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B471E5692BF6C2DE009F24D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B471E54B2BF6C2DC009F24D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B471E5572BF6C2DC009F24D6 /* ContentView.swift in Sources */,
+				B471E5552BF6C2DC009F24D6 /* MedicionApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B471E55D2BF6C2DE009F24D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B471E5662BF6C2DE009F24D6 /* Medicion_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B471E5672BF6C2DE009F24D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B471E5722BF6C2DE009F24D6 /* Medicion_Watch_AppUITestsLaunchTests.swift in Sources */,
+				B471E5702BF6C2DE009F24D6 /* Medicion_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B471E5522BF6C2DC009F24D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B471E54E2BF6C2DC009F24D6 /* Medicion Watch App */;
+			targetProxy = B471E5512BF6C2DC009F24D6 /* PBXContainerItemProxy */;
+		};
+		B471E5632BF6C2DE009F24D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B471E54E2BF6C2DC009F24D6 /* Medicion Watch App */;
+			targetProxy = B471E5622BF6C2DE009F24D6 /* PBXContainerItemProxy */;
+		};
+		B471E56D2BF6C2DE009F24D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B471E54E2BF6C2DC009F24D6 /* Medicion Watch App */;
+			targetProxy = B471E56C2BF6C2DE009F24D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B471E5732BF6C2DE009F24D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B471E5742BF6C2DE009F24D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B471E5762BF6C2DE009F24D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Medicion Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 48RDX5V656;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Medicion;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alan.Medicion.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		B471E5772BF6C2DE009F24D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Medicion Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 48RDX5V656;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Medicion;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alan.Medicion.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		B471E57A2BF6C2DE009F24D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48RDX5V656;
+				INFOPLIST_KEY_CFBundleDisplayName = Medicion;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alan.Medicion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B471E57B2BF6C2DE009F24D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48RDX5V656;
+				INFOPLIST_KEY_CFBundleDisplayName = Medicion;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alan.Medicion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B471E57D2BF6C2DE009F24D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48RDX5V656;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alan.Medicion-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medicion Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Medicion Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		B471E57E2BF6C2DE009F24D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48RDX5V656;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alan.Medicion-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medicion Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Medicion Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		B471E5802BF6C2DE009F24D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48RDX5V656;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alan.Medicion-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Medicion Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		B471E5812BF6C2DE009F24D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48RDX5V656;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alan.Medicion-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Medicion Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B471E5462BF6C2DC009F24D6 /* Build configuration list for PBXProject "Medicion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B471E5732BF6C2DE009F24D6 /* Debug */,
+				B471E5742BF6C2DE009F24D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B471E5752BF6C2DE009F24D6 /* Build configuration list for PBXNativeTarget "Medicion Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B471E5762BF6C2DE009F24D6 /* Debug */,
+				B471E5772BF6C2DE009F24D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B471E5792BF6C2DE009F24D6 /* Build configuration list for PBXNativeTarget "Medicion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B471E57A2BF6C2DE009F24D6 /* Debug */,
+				B471E57B2BF6C2DE009F24D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B471E57C2BF6C2DE009F24D6 /* Build configuration list for PBXNativeTarget "Medicion Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B471E57D2BF6C2DE009F24D6 /* Debug */,
+				B471E57E2BF6C2DE009F24D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B471E57F2BF6C2DE009F24D6 /* Build configuration list for PBXNativeTarget "Medicion Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B471E5802BF6C2DE009F24D6 /* Debug */,
+				B471E5812BF6C2DE009F24D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B471E5432BF6C2DC009F24D6 /* Project object */;
+}
