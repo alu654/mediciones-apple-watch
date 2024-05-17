@@ -15,6 +15,7 @@
 		B471E5662BF6C2DE009F24D6 /* Medicion_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471E5652BF6C2DE009F24D6 /* Medicion_Watch_AppTests.swift */; };
 		B471E5702BF6C2DE009F24D6 /* Medicion_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471E56F2BF6C2DE009F24D6 /* Medicion_Watch_AppUITests.swift */; };
 		B471E5722BF6C2DE009F24D6 /* Medicion_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471E5712BF6C2DE009F24D6 /* Medicion_Watch_AppUITestsLaunchTests.swift */; };
+		B4D4B0322BF7CA950019D6D6 /* UnitConversionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D4B0312BF7CA950019D6D6 /* UnitConversionTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		B471E56B2BF6C2DE009F24D6 /* Medicion Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Medicion Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B471E56F2BF6C2DE009F24D6 /* Medicion_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medicion_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		B471E5712BF6C2DE009F24D6 /* Medicion_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medicion_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B4D4B0312BF7CA950019D6D6 /* UnitConversionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitConversionTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				B471E5562BF6C2DC009F24D6 /* ContentView.swift */,
 				B471E5582BF6C2DD009F24D6 /* Assets.xcassets */,
 				B471E55A2BF6C2DD009F24D6 /* Preview Content */,
+				B4D4B0312BF7CA950019D6D6 /* UnitConversionTests.swift */,
 			);
 			path = "Medicion Watch App";
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B471E5662BF6C2DE009F24D6 /* Medicion_Watch_AppTests.swift in Sources */,
+				B4D4B0322BF7CA950019D6D6 /* UnitConversionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
