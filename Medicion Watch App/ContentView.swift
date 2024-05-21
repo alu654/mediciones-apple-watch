@@ -302,7 +302,7 @@ struct NumericKeypad: View {
     }
 
     private func performHapticFeedback() {
-        WKInterfaceDevice.current().play(.success) // Cambiar a una vibración más fuerte
+        WKInterfaceDevice.current().play(.success) 
     }
 }
 
@@ -310,7 +310,7 @@ enum UnitType: String, CaseIterable {
     case watts = "Watts"
     case milliwatts = "Milliwatts"
     case microwatts = "Microwatts"
-    case kilowatts = "Kilowatts" // Añadir esta línea
+    case kilowatts = "Kilowatts" 
     case bps = "Bps"
     case kbps = "Kbps"
     case mbps = "Mbps"
@@ -327,7 +327,7 @@ enum UnitType: String, CaseIterable {
     case khz = "kHz"
     case times = "Veces"
     case db = "dB"
-    case dbm = "dBm" // Añadir esta línea
+    case dbm = "dBm"
     case mw = "mW"
     case p1 = "P1"
     case p2 = "P2"
